@@ -1,0 +1,59 @@
+.logo-image{
+  width: 200px;
+  height: 200px;
+}
+
+header{
+  width: 100%;
+  display:flex;
+  align-items:center;
+ 
+  
+}
+
+ul {
+  
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  width:100%;
+}
+
+.sign up page: {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-form{
+  text-align:center;
+  margin-buttom: 25px;
+}
+  
+.video-page{
+  
+  height: 400;
+  background-color:#ffffcc;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+}  
+
+.video{
+  text-align:center;
+}
+
+.Civil-Law{
+  height:600px;
+background-image: url("https://667486.smushcdn.com/1013178/wp-content/uploads/2020/05/legaltech-1200x600-c-default.jpg?lossy=0&strip=1&webp=1")
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+   display:none;
+  }
+}
